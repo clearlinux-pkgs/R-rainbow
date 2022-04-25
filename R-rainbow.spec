@@ -4,7 +4,7 @@
 #
 Name     : R-rainbow
 Version  : 3.6
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/rainbow_3.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rainbow_3.6.tar.gz
 Summary  : Bagplots, Boxplots and Rainbow Plots for Functional Data
@@ -32,10 +32,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641085743
+export SOURCE_DATE_EPOCH=1650907767
 
 %install
-export SOURCE_DATE_EPOCH=1641085743
+export SOURCE_DATE_EPOCH=1650907767
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -103,7 +103,6 @@ R CMD check --no-manual --no-examples --no-codoc rainbow || :
 /usr/lib64/R/library/rainbow/demo/plot.sfts.R
 /usr/lib64/R/library/rainbow/demo/sfts.R
 /usr/lib64/R/library/rainbow/doc/index.html
-/usr/lib64/R/library/rainbow/doc/rainbow.R
 /usr/lib64/R/library/rainbow/doc/rainbow.Rnw
 /usr/lib64/R/library/rainbow/doc/rainbow.pdf
 /usr/lib64/R/library/rainbow/help/AnIndex
