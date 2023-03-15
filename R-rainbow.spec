@@ -4,7 +4,7 @@
 #
 Name     : R-rainbow
 Version  : 3.7
-Release  : 8
+Release  : 9
 URL      : https://cran.r-project.org/src/contrib/rainbow_3.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rainbow_3.7.tar.gz
 Summary  : Bagplots, Boxplots and Rainbow Plots for Functional Data
