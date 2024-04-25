@@ -7,7 +7,7 @@
 #
 Name     : R-rainbow
 Version  : 3.8
-Release  : 13
+Release  : 14
 URL      : https://cran.r-project.org/src/contrib/rainbow_3.8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rainbow_3.8.tar.gz
 Summary  : Bagplots, Boxplots and Rainbow Plots for Functional Data
